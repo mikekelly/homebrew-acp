@@ -7,7 +7,7 @@ class AcpServer < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/mikekelly/acp/releases/download/v0.1.0/acp-darwin-arm64.tar.gz"
-      sha256 "712e45ab1ccd69b5fc314f5ebf0298b578763ea0786be2af80d83fda986ba4a7"
+      sha256 "fe71c1c97ee15fa5cfe37b0c8f2faa0c8350662d459d770a0206e6e6e042a466"
     else
       # x86_64 binary not yet available
       odie "Intel Mac binary not yet available. Please build from source."
