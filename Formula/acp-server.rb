@@ -24,6 +24,8 @@ class AcpServer < Formula
     keep_alive true
     log_path var/"log/acp-server.log"
     error_log_path var/"log/acp-server.err"
+    # Use file-based storage instead of Keychain to survive upgrades
+    environment_variables ACP_DATA_DIR: var/"acp"
   end
 
   test do
