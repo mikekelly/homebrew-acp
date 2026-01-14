@@ -7,7 +7,7 @@ class Tsk < Formula
   on_macos do
     on_arm do
       url "https://github.com/mikekelly/tsk/releases/download/v0.6.3/tsk-macos-arm64"
-      sha256 "PLACEHOLDER_MACOS_SHA256"
+      sha256 "db80f93e0900ae820fe9facebbeb07247473f340692c8ede45eb5c81ea2535ea"
     end
     on_intel do
       odie "Intel Mac binaries not available. Please build from source."
@@ -17,7 +17,7 @@ class Tsk < Formula
   on_linux do
     on_intel do
       url "https://github.com/mikekelly/tsk/releases/download/v0.6.3/tsk-linux-x86_64"
-      sha256 "PLACEHOLDER_LINUX_SHA256"
+      sha256 "1b0319c9986890ed8816c9ecee17b39355ce91ca14231351d9b548854b68ca54"
     end
   end
 
