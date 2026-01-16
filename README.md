@@ -5,7 +5,7 @@ Homebrew tap for [GAP (Gated Agent Proxy)](https://github.com/mikekelly/gap) and
 ## Installation
 
 ```bash
-brew tap mikekelly/gap
+brew tap mikekelly/tap
 ```
 
 ### GAP Server
@@ -44,5 +44,5 @@ brew uninstall tsk
 ### Remove tap
 
 ```bash
-brew untap mikekelly/gap
+brew untap mikekelly/tap
 ```
